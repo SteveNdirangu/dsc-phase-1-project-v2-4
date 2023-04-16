@@ -76,3 +76,31 @@ grouped_df = merged_df.groupby(['year', 'month'])["worldwide_gross"].mean()
 ![per year monthly](https://user-images.githubusercontent.com/127976914/232334193-baa42cf9-0f9d-4954-b451-b8987ba99e05.png)
 
 
+## Findings
+### Budget
+The production budget has very strong positive correlation with the domestic and worldwide grosses
+
+### Average rating
+-movies rated higher did much better in the box office,both for domestic and worlwide audiences, and in fact, movies rated lower than 5 did very poor
+
+-curiously, the rating isn't really affected by increased budget, probably due to the fact that many things go into a production
+
+-it would seem the average rating has a weak positive correlation with both domestic and worldwide gross,
+
+### Genre
+Generally genres dont really affect a rating, but the top 5 that make money worldwide are anything of the "adventure genre" involving scifi, animation and comedy
+
+### Runtime
+-Rating has a strong positive correlation with the runtime of the movie, but closer investigation shows the dirstibution is clustered within a value range of 80 to 140 minutes
+
+### Month of release
+-it would seem from the per-year and mean of 5 years bar plots, that in the middle of the year and in November, these are the best times to release movies
+
+## Conlusions an Recommendations
+1) Mirosoft should invest in the Genres of Adventure, with scifi,comedy,and/or animation, with main projects being of the genre "Adventure,Drama,Scifi" as it gets high reviews as well as high grossing worldwide
+
+2) A high budget in these genres will give better returns worldwide, somewhere above the 100 million mark
+
+3)A runtime of Between 80 minutes and 140 minutes is the most consistent at good ratings
+
+4) Releasing between months 4-6, and at the tail end of the year might also give good worldwide grosses...probably because these are the months in which holidays occur eg easter, christmas
