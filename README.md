@@ -65,3 +65,14 @@ grouped_df = merged_df.groupby(['year', 'month'])["worldwide_gross"].mean()
 ### Scatter plot and Histogram to compare the Average rating and Worldwide Gross as well as Domestic
 
 ![rating vs gross](https://user-images.githubusercontent.com/127976914/232333724-d267ce0d-7381-4598-93cc-4abcdb59cc04.png)
+
+### Checking whether Production Budget has a relation with the worldwide gross
+![budget vs cost](https://user-images.githubusercontent.com/127976914/232334117-3dc0f5bc-8b1d-49dd-9b35-64a42e23c004.png)
+
+### Top and Bottom 5 Genres with worldwide gross returns in the box office
+![top bottom genres](https://user-images.githubusercontent.com/127976914/232334178-36ee71f2-c850-4aec-8928-1892e795b0bd.png)
+
+### Per year look at the worldwide Gross mean of each month in the past 6 years
+![per year monthly](https://user-images.githubusercontent.com/127976914/232334193-baa42cf9-0f9d-4954-b451-b8987ba99e05.png)
+
+
